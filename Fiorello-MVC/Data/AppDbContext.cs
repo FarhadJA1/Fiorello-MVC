@@ -15,5 +15,16 @@ namespace Fiorello_MVC.Data
         }
         public DbSet<Slider> Sliders { get; set; }
         public DbSet<SliderDetail> SliderDetails { get; set; }
+        public DbSet<Category> Categories { get; set; }
+        public DbSet<Product> Products { get; set; }
+        public DbSet<ProductImage> ProductImages { get; set; }
+        public DbSet<Valentine> ValentineDetails { get; set; }
+        public DbSet<ExpertsText> ExpertsTexts { get; set; }
+        public DbSet<Experts> Experts { get; set; }
+        public DbSet<BlogHeader> BlogHeaders { get; set; }
+        public DbSet<Blog> Blogs { get; set; }
+        public DbSet<Testimone> Testimones { get; set; }
+        public DbSet<Instagram> Instagrams { get; set; }
+
     }
 }
